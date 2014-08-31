@@ -1,0 +1,19 @@
+{
+    "name": "Firehose",
+    "version": "0.0.1",
+    "description": "Dynamic Curriculum Vitae for Carlos Serrano",
+    "main": "index.html",
+    "authors": [ "Carlos Serrano" ],
+    "license": "TBD",
+    "homepage": "TBD",
+    "private": true,
+    "devDependencies": {
+        "font-awesome": "4.1.0",
+        "bootstrap": "3.2.0",
+        "angular": "1.2.21",
+        "angular-animate": "1.2.21",
+        "angular-mocks": "1.2.21",
+        "angular-sanitize": "1.2.21",
+        "angular-ui-router": "0.2.10"
+    }
+}

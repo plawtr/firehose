@@ -1,0 +1,11 @@
+# Generated or downloaded files
+node_modules/*
+vendor/*
+bin/*
+build/*
+coverage/*
+temp/*
+!temp/README.md
+
+# Ignore mac os specific files
+.DS_Store
