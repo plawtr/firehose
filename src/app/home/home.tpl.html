@@ -2,4 +2,27 @@
    <h1>
        {{welcomeMsg}}
    </h1>
+
+    <input ng-model="searchText" placeholder="search" style="color:#000000">
+    <br/>
+    <br/>
+    <br/>
+    <table class="reference" style="width:60%">
+        <tbody><tr>
+            <th>Message</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Link</th>
+        </tr>
+        <tr ng-repeat="item in data | filter:searchText">
+            <td>{{item.message}}</td>
+            <td>{{item.lat}}</td>
+            <td>{{item.lng}}</td>
+            <td>
+                <a ng-href="http://www.google.co.uk/maps/@{{item.lat}},{{item.lng}},16z">go to</a>
+            </td>
+        </tr>
+        </tbody></table>
+
+
 </div>

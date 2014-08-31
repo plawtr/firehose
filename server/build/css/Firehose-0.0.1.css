@@ -9420,6 +9420,161 @@ button.close {
 * the Grunt configuration that is automatically processed.
 */
 
+.grid .grid-row,
+.grid .grid-header {
+  display: block;
+  margin-bottom: 2px;
+  margin-left: 0px;
+}
+
+.grid .grid-cell {
+  display: block;
+  padding: 10px;
+  margin-left: 0px !important;
+  font-family: Verdana, Arial;
+  font-size: 10pt;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.grid .row-fluid .grid-cell[class*="span"] {
+  min-height: 30px !important;
+}
+
+.grid .grid-header .grid-column {
+  background-color: transparent;
+}
+
+.grid .grid-header .grid-column .content {
+  float: left;
+  color: #FFF;
+}
+
+.grid .grid-header .grid-column .sorting {
+  float: right;
+}
+
+.grid .grid-header .grid-column .sorting i {
+  text-align: right;
+}
+
+.grid .grid-header .grid-column .sorting i {
+  display: block;
+  line-height: 8px;
+  opacity: .6;
+}
+
+.grid .grid-header .grid-column .sorting i.active-sorting {
+  color: #FFF;
+  opacity: 1;
+}
+
+.grid .grid-row .grid-column {
+  color: #FFF;
+}
+
+.grid .grid-row:hover .grid-column {
+  background-color: white !important;
+  opacity: 0.5;
+}
+
+.grid .grid-row.even .grid-column {
+  background-color: transparent;
+}
+
+.grid .grid-row.odd .grid-column {
+  background-color: transparent;
+}
+
+.grid .row-fluid [class*="span"] {
+  margin-left: 0px !important;
+}
+
+.grid .row-fluid .span1 {
+  width: 8.333%;
+  *width: 8.333%;
+}
+
+.grid .row-fluid .span2 {
+  width: 16.666%;
+  *width: 16.666%;
+}
+
+.grid .row-fluid .span3 {
+  width: 25%;
+  *width: 25%;
+}
+
+.grid .row-fluid .span4 {
+  width: 33.333%;
+  *width: 33.3%;
+}
+
+.grid .row-fluid .span5 {
+  width: 41.666%;
+  *width: 41.666%;
+}
+
+.grid .row-fluid .span6 {
+  width: 50;
+  *width: 50%;
+}
+
+.grid .row-fluid .span7 {
+  width: 58.333%;
+  *width: 58.333%;
+}
+
+.grid .row-fluid .span8 {
+  width: 66.666%;
+  *width: 66.666%;
+}
+
+.grid .row-fluid .span9 {
+  width: 75%;
+  *width: 75%;
+}
+
+.grid .row-fluid .span10 {
+  width: 83.333%;
+  *width: 83.333%;
+}
+
+.grid .row-fluid .span11 {
+  width: 91.666%;
+  *width: 91.666%;
+}
+
+.grid .row-fluid .span12 {
+  width: 100%;
+  *width: 99.94681%;
+}
+
+.pagination ul li a {
+  height: 20px;
+  padding: 5px 14px;
+  margin: 0 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 11pt;
+  color: white !important;
+  text-shadow: none !important;
+  cursor: pointer;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pagination ul li a:hover {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.pagination ul li.active a {
+  opacity: .6;
+}
+
 /*--- LOGO ---*/
 
 div.logo {

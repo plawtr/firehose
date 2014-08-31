@@ -20,6 +20,20 @@
     //      
     addScript('src/common/components/components.js');
     //      
+    addScript('src/common/components/grid/grid.js');
+    //      
+    addScript('src/common/components/grid/gridColumn.js');
+    //      
+    addScript('src/common/components/grid/gridColumnHeightFix.js');
+    //      
+    addScript('src/common/components/grid/gridHeaderColumn.js');
+    //      
+    addScript('src/common/components/grid/gridHeaderRow.js');
+    //      
+    addScript('src/common/components/grid/gridPagination.js');
+    //      
+    addScript('src/common/components/grid/gridRow.js');
+    //      
     addScript('src/common/config/config.js');
     //      
     addScript('src/common/services/services.js');

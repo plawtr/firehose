@@ -4,5 +4,4 @@ angular.module("common",
         'common.config',
         'common.services',
         'common.components',
-        'common.google+'
     ]);
