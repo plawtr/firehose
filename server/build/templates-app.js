@@ -23,7 +23,7 @@ angular.module("app/home/home.tpl.html", []).run(["$templateCache", function($te
     "            <td>{{item.lat}}</td>\n" +
     "            <td>{{item.lng}}</td>\n" +
     "            <td>\n" +
-    "                <a ng-href=\"http://www.google.co.uk/maps/@{{item.lat}},{{item.lng}},16z\">go to</a>\n" +
+    "                <a ng-href=\"http://maps.google.com/?q={{item.lat}},{{item.lng}}\">go to</a>\n" +
     "            </td>\n" +
     "        </tr>\n" +
     "        </tbody></table>\n" +
